@@ -21,7 +21,7 @@
 @import url('../icons/font-awesome/css/font-awesome.min.css');
 @import url('../icons/flaticon/flaticon.css');
 @import url('../icons/themify/themify-icons.css');
-:root {
+/* :root {
   --gradient: linear-gradient(to right, #ef146e 0, #fea958 51%, #ef146e 100%);
   --gradient-sec: linear-gradient(
     to right,
@@ -29,7 +29,7 @@
     #2b0ead 51%,
     #130065 100%
   );
-}
+} */
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -6465,7 +6465,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f01f75 !important;
+  background-color: #000f52 !important;
 }
 
 a.bg-primary:hover,
@@ -17901,7 +17901,8 @@ button.scroltop {
   background-size: cover;
 }
 .banner-three-bg {
-  background: url(/images/background/bg-jama.jpg), url(/images/background/bg6.png);
+  background: url(/images/background/bg-jama.jpg),
+    url(/images/background/bg6.png);
 }
 .banner-three:after {
   background-image: url(.././public/images/main-slider/slider3/pic2.png);
