@@ -21,22 +21,21 @@ function Slider3() {
                     data-wow-duration='3s'
                     className='wow fadeInUp sub-title text-yellow'
                   >
-                    We Are Product Designer From India
+                    Poseemos una experiencia de más de doce años
                   </h6>
                   <h1
                     data-wow-delay='1s'
                     data-wow-duration='3s'
                     className='wow fadeInUp m-b20'
                   >
-                    We Design Interfaces That Users Love
+                    Administramos edificios y condominios
                   </h1>
                   <p
                     data-wow-delay='1.5s'
                     data-wow-duration='3s'
                     className='wow fadeInUp m-b30'
                   >
-                    Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
-                    Pellentesque vitae ante at elit fringilla ac at purus.
+                    Compromiso, seriedad y tranquilidad para ti y tu familia
                   </p>
                   <Link href='about-us-3'>
                     <a
