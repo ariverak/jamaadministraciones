@@ -1,13 +1,14 @@
-import Slider3 from '../../element/slider-3';
 import Header from '../../components/Header';
+import Layout from '../../components/Layout';
+import Slider from '../../components/Slider';
 
 function Home() {
   return (
     <>
       <Header />
-      <div className='page-content bg-white' id='top'>
-        <Slider3 />
-      </div>
+      <Layout withBackground>
+        <Slider />
+      </Layout>
     </>
   );
 }
