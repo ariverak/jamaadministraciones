@@ -39,6 +39,16 @@ function Header() {
                 <span></span>
                 <span></span>
               </button>
+              {/* <!-- Extra Nav --> */}
+              <div className='extra-nav'>
+                <div className='extra-cell'>
+                  <Link href='contact-us-1'>
+                    <a className='btn btn-corner gradient btn-primary'>
+                      <i className='fa fa-angle-right m-r10'></i>Contactanos
+                    </a>
+                  </Link>
+                </div>
+              </div>
               <div
                 className={`header-nav navbar-collapse collapse justify-content-end ${
                   show ? 'show' : ''
@@ -54,23 +64,18 @@ function Header() {
                 </div>
                 <ul className='nav navbar-nav navbar'>
                   <li>
-                    <Link href='/'>
+                    <Link href='/home/nosotros'>
                       <a>Quienes Somos</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/'>
+                    <Link href='/home/mision'>
                       <a>Nuestra Misión</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/'>
+                    <Link href='/home/servicios'>
                       <a>Servicios</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href='/'>
-                      <a>Contacto</a>
                     </Link>
                   </li>
                 </ul>
