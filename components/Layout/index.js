@@ -5,7 +5,7 @@ function Layout({ children }) {
         className='banner-three bg-primary'
         style={{
           backgroundImage:
-            'url(images/background/bg5.png), url(images/background/bg6.png), var(--gradient-sec)',
+            'url(/images/background/bg-jama.jpg), url(/images/background/bg6.png)',
         }}
       >
         <div className='container'>
