@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { useEffect, useState } from 'react';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-import useScrollPosition from 'use-scroll-position';
+// import useScrollPosition from 'use-scroll-position';
 //import "../css/skin/skin-1.css";
 //import "../css/skin/skin-2.css";
 import '../css/style.css';
@@ -23,7 +23,8 @@ function MyApp({ Component, pageProps }) {
     setHeader_(document.getElementsByClassName('main-bar-wraper'));
   }, []);
 
-  let scrollPosition = useScrollPosition();
+  // let scrollPosition = useScrollPosition();
+  let scrollPosition = 0;
   function toggle() {
     setToggle1(!toggle1);
   }
