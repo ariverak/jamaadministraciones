@@ -9,13 +9,7 @@ function Layout({ withBackground, children }) {
         })}
       >
         <div className='container'>
-          <div className='banner-inner'>
-            <div className='row align-items-center'>
-              <div className='col-md-6'>
-                <div className='banner-content text-white'>{children}</div>
-              </div>
-            </div>
-          </div>
+          <div className='banner-inner'>{children}</div>
         </div>
       </div>
     </div>
