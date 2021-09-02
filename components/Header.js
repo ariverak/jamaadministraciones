@@ -3,7 +3,6 @@ import { useState } from 'react';
 
 function Header() {
   const [show, setShow] = useState(false);
-  const [open, setOpen] = useState('home');
   return (
     <>
       {/* <!-- Header --> */}
