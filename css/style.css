@@ -17897,8 +17897,8 @@ button.scroltop {
 .banner-three {
   height: 850px;
   position: relative;
-  background-position: bottom, top;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .banner-three:after {
   background-image: url(.././public/images/main-slider/slider3/pic2.png);
