@@ -17900,6 +17900,9 @@ button.scroltop {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.banner-three-bg {
+  background: url(/images/background/bg-jama.jpg), url(/images/background/bg6.png);
+}
 .banner-three:after {
   background-image: url(.././public/images/main-slider/slider3/pic2.png);
   content: '';

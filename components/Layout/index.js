@@ -1,12 +1,12 @@
-function Layout({ children }) {
+import cn from 'classnames';
+
+function Layout({ withBackground, children }) {
   return (
     <div className='page-content bg-white' id='top'>
       <div
-        className='banner-three bg-primary'
-        style={{
-          backgroundImage:
-            'url(/images/background/bg-jama.jpg), url(/images/background/bg6.png)',
-        }}
+        className={cn('banner-three bg-primary', {
+          'banner-three-bg': withBackground,
+        })}
       >
         <div className='container'>
           <div className='banner-inner'>

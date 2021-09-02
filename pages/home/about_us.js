@@ -5,7 +5,7 @@ function AboutUs() {
   return (
     <>
       <Header />
-      <Layout></Layout>
+      <Layout withBackground></Layout>
     </>
   );
 }
