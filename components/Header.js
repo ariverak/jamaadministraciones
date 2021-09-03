@@ -50,7 +50,7 @@ function Header({ transparent }) {
               {/* <!-- Extra Nav --> */}
               <div className='extra-nav'>
                 <div className='extra-cell'>
-                  <Link href='contact-us-1'>
+                  <Link href='/home/contactanos'>
                     <a className='btn btn-corner gradient btn-primary'>
                       <i className='fa fa-angle-right m-r10'></i>Contactanos
                     </a>

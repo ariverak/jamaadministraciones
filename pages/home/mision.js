@@ -1,7 +1,6 @@
-import Header from '../../components/Header';
 import Layout from '../../components/Layout';
 
-function AboutUs() {
+function Mision() {
   return (
     <>
       <Layout></Layout>
@@ -9,4 +8,4 @@ function AboutUs() {
   );
 }
 
-export default AboutUs;
+export default Mision;

@@ -30,15 +30,6 @@ export default function Slider() {
                 >
                   Compromiso, seriedad y tranquilidad para ti y tu familia
                 </p>
-                <Link href='about-us-3'>
-                  <a
-                    data-wow-delay='2s'
-                    data-wow-duration='3s'
-                    className='wow fadeInUp  btn btn-corner gradient btn-primary'
-                  >
-                    Learn More
-                  </a>
-                </Link>
               </div>
             </div>
             <div className='col-md-6'>
@@ -49,7 +40,7 @@ export default function Slider() {
               >
                 <img
                   src='images/main-slider/slider3/pic1.png'
-                  className='move-1'
+                  className='move-4'
                   alt=''
                 />
               </div>

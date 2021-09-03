@@ -3,7 +3,7 @@ import Layout from '../../components/Layout';
 import Header from '../../components/Header';
 import Features from '../../components/Features';
 
-function Home() {
+function Servicios() {
   return (
     <>
       <Layout>
@@ -13,4 +13,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Servicios;

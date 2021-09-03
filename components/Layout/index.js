@@ -1,5 +1,6 @@
 import Footer from '../Footer';
 import Header from '../Header';
+import Title from '../Title';
 
 function Layout({ transparentHeader, children }) {
   return (
