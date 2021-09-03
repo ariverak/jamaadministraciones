@@ -109,6 +109,35 @@ body {
   background-color: #fff;
 }
 
+body .main-loading {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ z-index: 9999;
+ background: #0D3ABB;
+ display: flex;
+ opacity: 0;
+ pointer-events: none;
+ justify-content: center;
+ align-items: center;
+ animation-name: fade;
+ animation-duration: 2s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 [tabindex='-1']:focus {
   outline: 0 !important;
 }
@@ -17895,7 +17924,7 @@ button.scroltop {
 }
 
 .banner-three {
-  height: 850px;
+  height: calc(100vh - 30px );
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17927,7 +17956,9 @@ button.scroltop {
 .banner-three .banner-inner {
   z-index: 99;
   position: relative;
-  padding-top: 200px;
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }
 .banner-three .banner-inner .dz-media {
   margin-right: -80px;

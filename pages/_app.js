@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { useEffect, useState } from 'react';
+import MainLoading from '../components/MainLoading';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 import '../css/style.css';
@@ -21,6 +21,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
       <div className='page-wraper'>
         <Component {...pageProps} />
+        <MainLoading />
       </div>
     </>
   );
