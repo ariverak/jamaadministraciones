@@ -5,7 +5,7 @@ import Slider from '../../components/Slider';
 function Home() {
   return (
     <>
-      <Layout withBackground>
+      <Layout transparentHeader>
         <Slider />
       </Layout>
     </>
