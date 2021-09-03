@@ -6,7 +6,7 @@ import Features from '../../components/Features';
 function Home() {
   return (
     <>
-      <Layout transparentHeader>
+      <Layout>
         <Features />
       </Layout>
     </>
