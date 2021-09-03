@@ -17,7 +17,7 @@ function Header({ transparent }) {
             <div className='container clearfix'>
               {/* <!-- Website Logo --> */}
               <div className='logo-header mostion logo-dark'>
-                <Link href='/home'>
+                <Link href='/'>
                   <a>
                     <img
                       className='custom-logo-white'
@@ -50,7 +50,7 @@ function Header({ transparent }) {
               {/* <!-- Extra Nav --> */}
               <div className='extra-nav'>
                 <div className='extra-cell'>
-                  <Link href='/home/contactanos'>
+                  <Link href='/contactanos'>
                     <a className='btn btn-corner gradient btn-primary'>
                       <i className='fa fa-angle-right m-r10'></i>Contactanos
                     </a>
@@ -64,7 +64,7 @@ function Header({ transparent }) {
                 id='navbarNavDropdown'
               >
                 <div className='logo-header'>
-                  <Link href='/home'>
+                  <Link href='/'>
                     <a>
                       <img src='/images/logo.png' alt='' />
                     </a>
@@ -72,17 +72,17 @@ function Header({ transparent }) {
                 </div>
                 <ul className='nav navbar-nav navbar'>
                   <li>
-                    <Link href='/home/nosotros'>
+                    <Link href='/nosotros'>
                       <a>Quienes Somos</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/home/mision'>
+                    <Link href='/mision'>
                       <a>Nuestra Misión</a>
                     </Link>
                   </li>
                   <li>
-                    <Link href='/home/servicios'>
+                    <Link href='/servicios'>
                       <a>Servicios</a>
                     </Link>
                   </li>
