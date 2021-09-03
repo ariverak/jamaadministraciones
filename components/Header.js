@@ -17,7 +17,7 @@ function Header({ transparent }) {
             <div className='container clearfix'>
               {/* <!-- Website Logo --> */}
               <div className='logo-header mostion logo-dark'>
-                <Link href='/'>
+                <Link href='/home'>
                   <a>
                     <img
                       className='custom-logo-white'
@@ -64,9 +64,9 @@ function Header({ transparent }) {
                 id='navbarNavDropdown'
               >
                 <div className='logo-header'>
-                  <Link href='/'>
+                  <Link href='/home'>
                     <a>
-                      <img src='images/logo-3.png' alt='' />
+                      <img src='/images/logo.png' alt='' />
                     </a>
                   </Link>
                 </div>
