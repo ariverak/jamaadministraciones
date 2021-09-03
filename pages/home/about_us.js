@@ -4,7 +4,6 @@ import Layout from '../../components/Layout';
 function AboutUs() {
   return (
     <>
-      <Header />
       <Layout withBackground></Layout>
     </>
   );

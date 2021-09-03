@@ -1,14 +1,18 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
-function Header() {
+function Header({ transparent }) {
   const [show, setShow] = useState(false);
   return (
     <>
       {/* <!-- Header --> */}
       <header className='site-header header-transparent mo-left'>
         {/* <!-- Main Header --> */}
-        <div className='sticky-header main-bar-wraper navbar-expand-lg'>
+        <div
+          className={`sticky-header main-bar-wraper navbar-expand-lg ${
+            !transparent && 'is-fixed'
+          }`}
+        >
           <div className='main-bar clearfix '>
             <div className='container clearfix'>
               {/* <!-- Website Logo --> */}
@@ -17,12 +21,16 @@ function Header() {
                   <a>
                     <img
                       className='custom-logo-white'
-                      src='images/logo-white.png'
+                      src={
+                        transparent
+                          ? '/images/logo-white.png'
+                          : '/images/logo.png'
+                      }
                       alt=''
                     />
                     <img
                       className='custom-logo'
-                      src='images/logo-3.png'
+                      src='/images/logo.png'
                       alt=''
                     />
                   </a>
