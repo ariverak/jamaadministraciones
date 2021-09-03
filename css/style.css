@@ -13281,7 +13281,11 @@ section:after {
 .form-control:focus,
 .form-control:active,
 .form-control.active {
-  border-color: #f01f75;
+  border-color: #0D3EBF;
+}
+
+.form-control.error {
+  border-color: red;
 }
 
 input:-internal-autofill-selected {

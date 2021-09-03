@@ -1,7 +1,19 @@
 import React from 'react';
 import Title from './Title';
+import { useForm } from 'react-hook-form';
+import cn from 'classnames';
 
 const ContactForm = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (values) => {
+    console.log(values);
+  };
+
   return (
     <div className='content-inner'>
       <div className='container'>
@@ -16,16 +28,15 @@ const ContactForm = () => {
               className='dlab-form dzForm mt-4'
               method='POST'
               action='script/contact.php'
+              onSubmit={handleSubmit(onSubmit)}
             >
-              <div className='dzFormMsg'></div>
               <div className='row'>
                 <div className='col-sm-6'>
                   <div className='input-group'>
                     <input
-                      name='dzName'
-                      required
+                      {...register('name', { required: true })}
                       type='text'
-                      className='form-control'
+                      className={cn('form-control', { error: errors.name })}
                       placeholder='Nombre'
                     />
                   </div>
@@ -33,10 +44,13 @@ const ContactForm = () => {
                 <div className='col-sm-6'>
                   <div className='input-group'>
                     <input
-                      name='dzOther[phone]'
-                      required
-                      type='text'
-                      className='form-control'
+                      {...register('phone', {
+                        required: true,
+                        minLength: 6,
+                        maxLength: 12,
+                      })}
+                      type='tel'
+                      className={cn('form-control', { error: errors.phone })}
                       placeholder='Teléfono'
                     />
                   </div>
@@ -44,32 +58,40 @@ const ContactForm = () => {
                 <div className='col-sm-12'>
                   <div className='input-group'>
                     <input
-                      name='dzEmail'
-                      required
+                      {...register('email', {
+                        required: true,
+                        pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+                      })}
                       type='text'
-                      className='form-control'
+                      className={cn('form-control', { error: errors.email })}
                       placeholder='Email'
                     />
                   </div>
                 </div>
-                <div className='col-sm-6'>
+                <div className='col-sm-4'>
                   <div className='input-group'>
                     <input
-                      name='dzName'
-                      required
+                      {...register('city', {
+                        required: true,
+                        minLength: 3,
+                        maxLength: 60,
+                      })}
                       type='text'
-                      className='form-control'
+                      className={cn('form-control', { error: errors.city })}
                       placeholder='Ciudad'
                     />
                   </div>
                 </div>
-                <div className='col-sm-6'>
+                <div className='col-sm-8'>
                   <div className='input-group'>
                     <input
-                      name='dzOther[phone]'
-                      required
+                      {...register('address', {
+                        required: true,
+                        minLength: 6,
+                        maxLength: 120,
+                      })}
                       type='text'
-                      className='form-control'
+                      className={cn('form-control', { error: errors.address })}
                       placeholder='Dirección'
                     />
                   </div>
@@ -77,9 +99,11 @@ const ContactForm = () => {
                 <div className='col-sm-12'>
                   <div className='input-group'>
                     <textarea
-                      name='dzMessage'
-                      required
-                      className='form-control'
+                      {...register('message', {
+                        required: true,
+                        minLength: 6,
+                      })}
+                      className={cn('form-control', { error: errors.message })}
                       placeholder='Mensaje'
                     ></textarea>
                   </div>

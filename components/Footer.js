@@ -2,9 +2,9 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <code className='layout-footer'>
-      Movil : 976186028 Mail : info@jamaadministraciones.cl
-    </code>
+    <p className='layout-footer mb-0'>
+      © JAMA Administraciones | info@jamaadministraciones.cl | +56976186028
+    </p>
   );
 };
 
