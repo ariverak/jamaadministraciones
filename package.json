@@ -9,6 +9,7 @@
         "sass": "node-sass --watch scss/main.scss css/style.css --source-map css/style.css.map"
     },
     "dependencies": {
+        "@popperjs/core": "^2.10.1",
         "classnames": "^2.2.6",
         "moment": "^2.29.1",
         "next": "^10.0.6",
