@@ -1,3 +1,5 @@
+import Title from './Title';
+
 function AboutUs() {
   return (
     <>
@@ -11,10 +13,7 @@ function AboutUs() {
               </div>
             </div>
             <div className='col-lg-6'>
-              <div className='section-head style-3 mb-4'>
-                <h2 className='title'>¿Quienes Somos?</h2>
-                <div className='dlab-separator style-2 bg-primary'></div>
-              </div>
+              <Title>¿Quienes Somos?</Title>
               <p>
                 JAMA Administraciones SpA, nace con el propósito de dar solución
                 a los Comités administrativos de edificios y Condominios, en
