@@ -1,9 +1,12 @@
+import AboutUs from '../../components/AboutUs';
 import Layout from '../../components/Layout';
 
 function Nosotros() {
   return (
     <>
-      <Layout></Layout>
+      <Layout>
+        <AboutUs />
+      </Layout>
     </>
   );
 }
