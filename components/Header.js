@@ -86,6 +86,11 @@ function Header({ transparent }) {
                       <a>Servicios</a>
                     </Link>
                   </li>
+                  <li className='d-block d-sm-none'>
+                    <Link href='/contactanos'>
+                      <a>Contactanos</a>
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
