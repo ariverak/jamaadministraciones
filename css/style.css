@@ -17982,6 +17982,14 @@ button.scroltop {
 .banner-three .banner-inner .dz-media {
   margin-right: -80px;
 }
+
+ol.page-ol li {
+  list-style: disc;
+  padding-left: 10px;
+}
+ol.page-ol li::marker {
+  padding-left: 10px;
+}
 @media only screen and (min-width: 1921px) {
   .banner-three:after {
     background-size: cover;
