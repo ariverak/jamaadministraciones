@@ -18,10 +18,7 @@ function Features() {
                 >
                   <div className='icon-bx-wraper left m-b50 icon-up'>
                     <div className='icon-bx-sm radius gradient-sec shadow-primary m-b20'>
-                      <a
-                        href='javascript:void(0);'
-                        className='icon-cell text-white'
-                      >
+                      <a href='#!' className='icon-cell text-white'>
                         <i className='flaticon-dollar'></i>
                       </a>
                     </div>
@@ -56,10 +53,7 @@ function Features() {
                 >
                   <div className='icon-bx-wraper left m-b50 icon-up'>
                     <div className='icon-bx-sm radius gradient-sec shadow-primary m-b20'>
-                      <a
-                        href='javascript:void(0);'
-                        className='icon-cell text-white'
-                      >
+                      <a href='#!' className='icon-cell text-white'>
                         <i className='flaticon-chart'></i>
                       </a>
                     </div>
@@ -90,10 +84,7 @@ function Features() {
                 >
                   <div className='icon-bx-wraper left m-b50 icon-up'>
                     <div className='icon-bx-sm radius gradient-sec shadow-primary m-b20'>
-                      <a
-                        href='javascript:void(0);'
-                        className='icon-cell text-white'
-                      >
+                      <a href='#!' className='icon-cell text-white'>
                         <i className='flaticon-user'></i>
                       </a>
                     </div>
@@ -115,10 +106,7 @@ function Features() {
                 >
                   <div className='icon-bx-wraper left m-b50 icon-up'>
                     <div className='icon-bx-sm radius gradient-sec shadow-primary m-b20'>
-                      <a
-                        href='javascript:void(0);'
-                        className='icon-cell text-white'
-                      >
+                      <a href='#!' className='icon-cell text-white'>
                         <i className='flaticon-sketch'></i>
                       </a>
                     </div>
@@ -141,10 +129,7 @@ function Features() {
                 >
                   <div className='icon-bx-wraper left m-b50 icon-up'>
                     <div className='icon-bx-sm radius gradient-sec shadow-primary m-b20'>
-                      <a
-                        href='javascript:void(0);'
-                        className='icon-cell text-white'
-                      >
+                      <a href='#!' className='icon-cell text-white'>
                         <i className='flaticon-check'></i>
                       </a>
                     </div>
