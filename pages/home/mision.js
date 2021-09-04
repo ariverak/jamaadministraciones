@@ -6,6 +6,10 @@ function Mision() {
       <Layout>
         <div className='content-inner'>
           <div className='container'>
+            <div className='section-head style-3 text-center'>
+              <h2 className='title'>Nuestra misión</h2>
+              <div className='dlab-separator style-2 bg-primary'></div>
+            </div>
             <div className='blockquote style-2'>
               <h4 className='m-b30'>Misión</h4>
               <p

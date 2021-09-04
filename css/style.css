@@ -110,7 +110,7 @@ body {
 }
 
 body .main-loading {
-  position: absolute;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -139,6 +139,14 @@ body .layout-footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 20px;
+}
+
+@media (max-width: 400px) {
+  .layout-footer {
+    font-size: 0.6em;
+    text-align: center;
+  }
 }
 
 @keyframes fade {
@@ -649,6 +657,10 @@ pre code {
   overflow-y: scroll;
 }
 
+.container.clearfix {
+  padding-top: 0px;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -656,9 +668,16 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+@media (max-width: 400px) {
+  .container {
+    max-width: 540px;
+    padding-top: 80px;
+  }
+}
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+    padding-top: 100px;
   }
 }
 @media (min-width: 768px) {
@@ -13281,7 +13300,7 @@ section:after {
 .form-control:focus,
 .form-control:active,
 .form-control.active {
-  border-color: #0D3EBF;
+  border-color: #0d3ebf;
 }
 
 .form-control.error {
@@ -17326,7 +17345,7 @@ nav .pagination.text-center {
   top: 0;
   left: 0;
   position: absolute;
-  background-color: #05048E;
+  background-color: #05048e;
   border-radius: 30px;
 }
 .blockquote.style-2 .blockquote-content {
