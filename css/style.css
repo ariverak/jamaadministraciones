@@ -667,11 +667,12 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  padding-top: 20px;
 }
-@media (max-width: 400px) {
+@media (max-width: 580px) {
   .container {
     max-width: 540px;
-    padding-top: 80px;
+    padding-top: 60px;
   }
 }
 @media (min-width: 576px) {
@@ -18034,7 +18035,7 @@ ol.page-ol li::marker {
     font-size: 42px;
   }
   .banner-three .banner-inner {
-    padding-top: 150px;
+    /* padding-top: 150px; */
   }
 }
 @media only screen and (max-width: 767px) {
@@ -18054,7 +18055,7 @@ ol.page-ol li::marker {
     margin-bottom: 50px;
   }
   .banner-three .banner-inner {
-    padding-top: 120px;
+    /* padding-top: 120px; */
   }
 }
 
@@ -20120,7 +20121,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
 }
 @media only screen and (max-width: 991px) {
   .header-nav .nav > li > a i {
-    background-color: #f01f75;
+    background-color: #0c3285;
     color: #fff;
     height: 30px;
     line-height: 30px;
