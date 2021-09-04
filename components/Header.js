@@ -72,7 +72,7 @@ function Header({ transparent }) {
                 </div>
                 <ul className='nav navbar-nav navbar'>
                   <li>
-                    <Link href='/home/nosotros'>
+                    <Link href='/nosotros'>
                       <a>
                         Quienes Somos
                         <i class='fa fa-chevron-down d-block d-sm-none'></i>
@@ -80,7 +80,7 @@ function Header({ transparent }) {
                     </Link>
                   </li>
                   <li>
-                    <Link href='/home/mision'>
+                    <Link href='/mision'>
                       <a>
                         Nuestra Misión
                         <i class='fa fa-chevron-down d-block d-sm-none'></i>
@@ -88,7 +88,7 @@ function Header({ transparent }) {
                     </Link>
                   </li>
                   <li>
-                    <Link href='/home/servicios'>
+                    <Link href='/servicios'>
                       <a>
                         Servicios
                         <i class='fa fa-chevron-down d-block d-sm-none'></i>
