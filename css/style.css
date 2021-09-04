@@ -677,7 +677,6 @@ pre code {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
-    padding-top: 100px;
   }
 }
 @media (min-width: 768px) {
