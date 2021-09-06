@@ -18,6 +18,14 @@ function MyApp({ Component, pageProps }) {
           sizes='16x16'
           href='/images/favicon.png'
         />
+        <meta
+          name='viewport'
+          content='minimum-scale=1, initial-scale=1, width=device-width'
+        />
+        <meta
+          name='description'
+          content='Administramos edificios y condominios'
+        />
       </Head>
       <div className='page-wraper'>
         <Component {...pageProps} />
