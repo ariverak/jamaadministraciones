@@ -23,14 +23,14 @@ function Header({ transparent }) {
                       className='custom-logo-white'
                       src={
                         transparent
-                          ? '/images/logo-white.png'
-                          : '/images/logo.png'
+                          ? '/images/jama-logo-white.svg'
+                          : '/images/jama-logo.svg'
                       }
                       alt=''
                     />
                     <img
                       className='custom-logo'
-                      src='/images/logo.png'
+                      src='/images/jama-logo.svg'
                       alt=''
                     />
                   </a>
@@ -66,7 +66,7 @@ function Header({ transparent }) {
                 <div className='logo-header'>
                   <Link href='/'>
                     <a>
-                      <img src='/images/logo.png' alt='' />
+                      <img src='/images/jama-logo.svg' alt='' />
                     </a>
                   </Link>
                 </div>
@@ -75,7 +75,7 @@ function Header({ transparent }) {
                     <Link href='/nosotros'>
                       <a>
                         Quienes Somos
-                        <i class='fa fa-chevron-down d-block d-sm-none'></i>
+                        <i className='fa fa-chevron-down d-block d-sm-none'></i>
                       </a>
                     </Link>
                   </li>
@@ -83,7 +83,7 @@ function Header({ transparent }) {
                     <Link href='/mision'>
                       <a>
                         Nuestra Misión
-                        <i class='fa fa-chevron-down d-block d-sm-none'></i>
+                        <i className='fa fa-chevron-down d-block d-sm-none'></i>
                       </a>
                     </Link>
                   </li>
@@ -91,7 +91,7 @@ function Header({ transparent }) {
                     <Link href='/servicios'>
                       <a>
                         Servicios
-                        <i class='fa fa-chevron-down d-block d-sm-none'></i>
+                        <i className='fa fa-chevron-down d-block d-sm-none'></i>
                       </a>
                     </Link>
                   </li>
@@ -99,7 +99,7 @@ function Header({ transparent }) {
                     <Link href='/contactanos'>
                       <a>
                         Contactanos
-                        <i class='fa fa-chevron-down d-block d-sm-none'></i>
+                        <i className='fa fa-chevron-down d-block d-sm-none'></i>
                       </a>
                     </Link>
                   </li>
