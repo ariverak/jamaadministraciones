@@ -3,7 +3,12 @@ import React, { useMemo } from 'react';
 const MainLoading = () => {
   const loading = (
     <div className='main-loading'>
-      <img src='/images/logo-white.png' width='250' className='move-4' alt='' />
+      <img
+        src='/images/jama-logo-white.svg'
+        width='250'
+        className='move-4 logo-loading'
+        alt=''
+      />
     </div>
   );
 

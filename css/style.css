@@ -661,6 +661,16 @@ pre code {
   padding-top: 0px;
 }
 
+.logo-loading {
+  width: 400px;
+}
+
+@media (max-width: 400px) {
+  .logo-loading {
+    width: 250px;
+  }
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -21194,6 +21204,24 @@ footer .widget_getintuch ul li i {
 }
 .site-footer.style-3 .footer-top {
   background: transparent;
+}
+
+@media (max-width: 400px) {
+  .mobile-only {
+    display: block;
+  }
+  .desktop-only {
+    display: none;
+  }
+}
+
+@media (min-width: 401px) {
+  .mobile-only {
+    display: none;
+  }
+  .desktop-only {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
