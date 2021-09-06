@@ -20142,11 +20142,7 @@ icon-bx-wraper style-4:hover .icon-cell i,
     margin: 0;
   }
 }
-@media only screen and (max-width: 991px) {
-  .header-nav .nav > li > a i:before {
-    content: '\f105';
-  }
-}
+
 @media only screen and (max-width: 991px) {
   .header-nav .nav > li > a {
     padding: 8px 0;

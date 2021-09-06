@@ -52,7 +52,7 @@ function Header({ transparent }) {
                 <div className='extra-cell'>
                   <Link href='/contactanos'>
                     <a className='btn btn-corner gradient btn-primary'>
-                      <i className='fa fa-angle-right m-r10'></i>Contactanos
+                      <i className='flaticon-user m-r10'></i>Contactanos
                     </a>
                   </Link>
                 </div>
@@ -75,7 +75,7 @@ function Header({ transparent }) {
                     <Link href='/nosotros'>
                       <a>
                         Quienes Somos
-                        <i className='fa fa-chevron-down d-block d-sm-none'></i>
+                        <i className='d-block d-sm-none'>{'>'}</i>
                       </a>
                     </Link>
                   </li>
@@ -83,7 +83,7 @@ function Header({ transparent }) {
                     <Link href='/mision'>
                       <a>
                         Nuestra Misión
-                        <i className='fa fa-chevron-down d-block d-sm-none'></i>
+                        <i className='d-block d-sm-none'>{'>'}</i>
                       </a>
                     </Link>
                   </li>
@@ -91,7 +91,7 @@ function Header({ transparent }) {
                     <Link href='/servicios'>
                       <a>
                         Servicios
-                        <i className='fa fa-chevron-down d-block d-sm-none'></i>
+                        <i className='d-block d-sm-none'>{'>'}</i>
                       </a>
                     </Link>
                   </li>
@@ -99,7 +99,7 @@ function Header({ transparent }) {
                     <Link href='/contactanos'>
                       <a>
                         Contactanos
-                        <i className='fa fa-chevron-down d-block d-sm-none'></i>
+                        <i className='d-block d-sm-none'>{'>'}</i>
                       </a>
                     </Link>
                   </li>
