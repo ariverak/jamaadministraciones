@@ -7,11 +7,33 @@ const ContactForm = () => {
   const {
     register,
     handleSubmit,
+    reset,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (values) => {
-    console.log(values);
+  const onSubmit = (user) => {
+    const data = new FormData();
+    data.append('name', user.name);
+    data.append('email', user.email);
+    data.append('phone', user.phone);
+    data.append('city', user.city);
+    data.append('address', user.address);
+    data.append('message', user.message);
+
+    fetch('/scripts/mail.php', {
+      method: 'POST',
+      body: data,
+    }).then(() => {
+      reset({
+        name: '',
+        email: '',
+        phone: '',
+        city: '',
+        address: '',
+        message: '',
+      });
+      alert('Muchas gracias por contactarte con nosotros');
+    });
   };
 
   return (
