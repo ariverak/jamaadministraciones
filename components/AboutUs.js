@@ -73,6 +73,18 @@ function AboutUs() {
                     FELIZ, la cual permite tener un soporte de comunicación e
                     información al día.
                   </p>
+                  <p>
+                    En relación a la seguridad de su edificio o condominio,
+                    contamos con el apoyo de la empresa LOBBYCONTROL, quienes a
+                    través de su Sistema de Gestión de Emergencias disponen de
+                    toda la información que necesiten los equipos de primera
+                    intervención ante una eventual emergencia. Además entregan
+                    un acompañamiento constante, elaborando el Plan de
+                    Emergencias y Evacuación, realizando en conjunto
+                    capacitaciones y sugerencias de mejoras en sus
+                    instalaciones, así les mantenemos seguros y actualizados,
+                    ante una posible emergencia
+                  </p>
                 </div>
                 <div
                   className='col-lg-6 wow fadeInRight'
